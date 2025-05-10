@@ -1,3 +1,5 @@
+import { Link } from "react-scroll";
+
 const Intro = () => {
   return (
     <section
@@ -25,11 +27,15 @@ const Intro = () => {
             experiences.
           </p>
 
-          <div className="pt-4 opacity-0 animate-fade-in-delay-4">
-            <a href="#projects" className="cosmic-button">
-              View My Work
-            </a>
-          </div>
+          <Link
+            to="projects"
+            smooth={true}
+            duration={1200} // duration in milliseconds
+            offset={-80} // adjust if you have a fixed navbar
+            className="cosmic-button cursor-pointer"
+          >
+            View My Work
+          </Link>
         </div>
       </div>
     </section>
