@@ -1,4 +1,4 @@
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
 
 const Intro = () => {
   return (
@@ -27,7 +27,13 @@ const Intro = () => {
             experiences.
           </p>
 
-          <Link
+          <div className="pt-4 opacity-0 animate-fade-in-delay-4">
+            <a href="#projects" className="cosmic-button">
+              View My Work
+            </a>
+          </div>
+
+          {/* <Link
             to="projects"
             smooth={true}
             duration={1200} // duration in milliseconds
@@ -35,7 +41,7 @@ const Intro = () => {
             className="cosmic-button cursor-pointer"
           >
             View My Work
-          </Link>
+          </Link> */}
         </div>
       </div>
     </section>
