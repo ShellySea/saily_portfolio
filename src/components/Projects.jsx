@@ -39,7 +39,7 @@ const Projects = () => {
       image: "/projects/project3.png",
       tags: ["React", "Node.js", "MySQL"],
       demoUrl: "#",
-      githubUrl: "https://github.com/ShellyCS/Blog",
+      githubUrl: "https://github.com/ShellyCS/Blog/tree/master",
     },
     {
       id: 5,
